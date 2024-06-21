@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <span id="resultado">Resultado: </span> <br />
+    <form>
+      <label for="n1">N1</label>
+      <input id="n1" type="number" />
+      <label for="n2">N2</label>
+      <input id="n2" type="number" />
+      <input
+        type="button"
+        onclick="document.getElementById('resultado').innerHTML= `Resultado: ${multiplicar()}`;"
+        value="Multiplicar"
+      />
+    </form>
+
+    <script src="./meuscript.js"></script>
+  </body>
+</html>

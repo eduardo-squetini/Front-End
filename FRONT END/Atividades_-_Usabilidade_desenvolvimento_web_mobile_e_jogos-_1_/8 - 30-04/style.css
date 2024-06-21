@@ -1,0 +1,110 @@
+body {
+    background-color: #456990;
+}
+
+#container{
+    width: 800px;
+    background-position: top;
+    margin-top: 0px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: white;
+}
+
+.div_cabecalho{
+    background-image: url("Naruto.webp");
+    background-size: cover;
+    height: 300px;
+}
+
+#div_menuh{
+    text-align: center;
+    background-color: black;
+    width: 800px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+}
+
+#div_menuv{
+    width: 200px;
+    float: left;
+    background-color: #F45B69;
+    height: 300px;
+}
+
+#div_conteudo{
+    width: 400px;
+    float: left;
+    background-color: #6B2737;
+    height: 300px;
+}
+
+#div_noticias{
+    width: 200px;
+    float: left;
+    background-color: #90DDF0;
+    height: 300px;
+}
+
+#div_rodape{
+    background-color: #F0EDEE;
+    width: 800px;
+    height: 100px;
+    clear: both;
+}
+#div_menuh ul{
+    padding:  0px;
+    margin: 0px;
+    list-style: none;
+   }
+   #div_menuh ul li{
+    display: inline;
+   }
+   #div_menuh ul li a{
+    padding:  2px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+   }
+   #div_menuh ul li a:hover{
+    color: #6d6d6d;
+    border-bottom: 3px solid slateblue;
+   }
+   #div_menuv ul{
+    display: block;
+   }
+   #div_menuv ul>li{
+    padding: 2px 10px;
+    text-align: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+   }
+   #div_menuv ul li>a{
+    padding: 5px 10px;
+    display: inline-block;
+    color: slateblue;
+    text-decoration: none;
+    border-bottom: 3px solid #ededed;
+   }
+   #div_conteudo h1~p{
+    margin-top: 5px;
+    background-color: slategray;
+    width: 300px;
+    height: 30px;
+    margin-left: 40px;
+   }
+   #div_noticias img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+   }
+   #div_noticias img+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
