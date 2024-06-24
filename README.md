@@ -7,7 +7,7 @@ Este repositório é dedicado ao estudo e prática dos fundamentos da linguagem 
 - **Exemplos de Código**: Exemplos detalhados para ilustrar o uso de HTML, CSS e JavaScript.
 - **Exercícios Práticos**: Conjunto de exercícios para reforçar o aprendizado e prática das tecnologias.
 - **Recursos Didáticos**: Material de apoio e tutoriais para auxiliar no entendimento dos conceitos.
-- 
+  
 ## Tecnologias Utilizadas
 - HTML
 - CSS
